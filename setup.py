@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name = "cmsplugin-bootstrap",
-    version = "0.9",
+    version = "0.1",
     url = 'http://github.com/robrocker7/cmsplugin-bootstrap',
     license = 'BSD',
     description = "django-cms plugins to integrate twitter bootstrap",
