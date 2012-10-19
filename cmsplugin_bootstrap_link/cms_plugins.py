@@ -10,7 +10,7 @@ class ButtonLinkPlugin(LinkPlugin):
     module = 'Bootstrap'
     model = ButtonLink
     form = ButtonLinkForm
-    name = _("Link")
+    name = _("ButtonLink")
     render_template = "cmsplugin_bootstrap/link.html"
 
     class Media:
