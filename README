@@ -1,0 +1,26 @@
+===============
+cmsplugin-bootstrap
+===============
+
+Plugins that provide Twitter Bootstrap styles to HTML elements
+
+Dependencies
+------------
+
+* Django >= 1.3
+* django-cms >= 2.2
+* django-sekizai >= 0.4.2
+* South >= 0.7.6
+
+Installation
+------------
+
+add the bootstrap plugins to ``INSTALLED_APPS``::
+
+    INSTALLED_APPS = (
+        ...
+        'cmsplugin_bootstrap_link',
+        ...
+    )
+
+and then run ``migrate``
