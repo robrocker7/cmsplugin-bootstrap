@@ -35,3 +35,4 @@ etc/django/local.py
 
 src/media/uploads/*
 src/media/*
+*.orig
