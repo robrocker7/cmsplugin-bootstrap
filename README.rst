@@ -30,7 +30,7 @@ add the following sekizai tags to your base html in their proper places it's rec
     {% render_block "css" %}
     {% render_block "js" %}
 
-Since you're using this plugin it's assumed you already are using bootstrap and have it included into your template. If not here is the basic structure for the media includes::
+There is a copy of the latest version of Twitter Bootstrap packaged. You can use your own customized version of Twitter Bootstrap or use the packaged version by adding the following to your base::
 
     {% addtoblock "js" %}  
         <script type="text/javascript" src="{{ STATIC_URL }}pathtobootstrap/js/bootstrap.min.js"></script>
