@@ -10,7 +10,7 @@ setup(
     url = 'http://github.com/robrocker7/cmsplugin-bootstrap',
     license = 'BSD',
     description = "django-cms plugins to integrate twitter bootstrap",
-    long_description = read('README'),
+    long_description = read('README.rst'),
     author = 'Robert Johnson',
     author_email = 'robrocker7@gmail.com',
     packages = find_packages(),

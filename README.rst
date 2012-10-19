@@ -32,10 +32,10 @@ add the following sekizai tags to your base html in their proper places it's rec
 
 There is a copy of the latest version of Twitter Bootstrap packaged. You can use your own customized version of Twitter Bootstrap or use the packaged version by adding the following to your base.
 
-{% addtoblock "js" %}
-<script type="text/javascript" src="{{ STATIC_URL }}libs/bootstrap/js/bootstrap.min.js"></script>
-{% endaddtoblock "js" %}
-{% addtoblock "css" %}
-<link href="{{ STATIC_URL }}libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="{{ STATIC_URL }}libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-{% endaddtoblock "css" %}
+    {% addtoblock "js" %}  
+    <script type="text/javascript" src="{{ STATIC_URL }}libs/bootstrap/js/bootstrap.min.js"></script>
+    {% endaddtoblock "js" %}
+    {% addtoblock "css" %}
+    <link href="{{ STATIC_URL }}libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}libs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    {% endaddtoblock "css" %}
